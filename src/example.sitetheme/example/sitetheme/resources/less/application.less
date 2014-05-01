@@ -1,0 +1,44 @@
+//
+// Application stylesheet
+// -----------------------------------------------
+
+.app-toolbar + .app-navbar {
+    margin-top: @navbar-height;
+}
+
+.app-header {
+    .jumbotron();
+    display: none;
+}
+
+.app-sign {
+    display: inline-block;
+    .square(@navbar-height);
+    padding: ceil(@line-height-computed / 2);
+    border: ceil(@line-height-computed / 4) solid @gray-lighter;
+    border-radius: floor(@navbar-height / 2);
+    color: @gray-lighter;
+    font-size:f loor(@navbar-height / 2);
+    text-align: center;
+    line-height: 1;
+    &.app-sign-large {
+        .square((@navbar-height * 2));
+        padding: @line-height-computed;
+        border-radius: @navbar-height;
+        font-size: @navbar-height;
+    }
+    &.app-sign-draggable {
+        border: none;
+    }
+    .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        border-color: @gray-dark;
+        background-color: @navbar-default-toggle-icon-bar-bg;
+    }
+    .icon-bar + .icon-bar {
+        margin-top: 4px;
+    }
+}
