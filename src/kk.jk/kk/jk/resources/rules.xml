@@ -14,6 +14,9 @@
     <theme href="dist/signin.html" css:if-content="body.template-logged_out" />
     <theme href="dist/signin.html" css:if-content="body.template-login_failed" />
     <theme href="dist/signin.html" css:if-content="body.template-mail_password_form" />
+    <theme href="dist/signin.html" css:if-content="body.template-mail_password_response" />
+    <theme href="dist/signin.html" css:if-content="body.template-pwreset_form" />
+    <theme href="dist/signin.html" css:if-content="body.template-pwreset_finish" />
     
     <!-- Rules applying to a standard Plone web page -->
     <rules css:if-content="#visual-portal-wrapper">
@@ -22,9 +25,9 @@
         <theme href="dist/theme.html" />
 
         <replace css:theme="title" css:content="title" />
-        <!-- Add meta tags -->
-        <drop theme="/html/head/meta" />
+        <replace css:theme="base" css:content="base" />
         
+        <!-- Add meta tags -->
         <after content="/html/head/meta" theme-children="/html/head" />
         <!-- Copy style, script and link tags in the order they appear in the content -->
         <after
@@ -33,17 +36,19 @@
             />
 
         <drop theme="/html/head/style" />
-        <drop theme="/html/head/script" />
+        <!-- <drop theme="/html/head/script" /> -->
         <drop theme="/html/head/link" />
 
         <!-- Drop scripts from theme footer if present -->
         <drop theme="/html/body/script" />
 
         <!-- Custom favicon implementation -->
-        <!--<drop content="link[@type='image/x-icon']" />
+        <drop content="link[@type='image/x-icon']" />
         <after theme="/html/head">
-            <link rel="shortcut icon" href="/++theme++example.jmstheme/img/favicon.ico" type="images/x-icon" />
-        </after>-->
+            <link rel="shortcut icon" href="/++theme++kk.jk/dist/assets/ico/favicon.ico" type="images/x-icon" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/++theme++kk.jk/dist/assets/ico/apple-touch-icon-144-precomposed.png" />
+            <link rel="shortcut icon" href="/++theme++kk.jk/dist/assets/ico/favicon.png" />
+        </after>
 
         <!-- Copy over the id/class attributes on the body tag.
              This is important for per-section styling -->
@@ -61,7 +66,8 @@
             css:content-children="#portal-personaltools" />
 
         <!-- Logo (link target) -->
-        <copy attributes="href" css:content="#portal-logo" css:theme="a.brand" />
+        <copy attributes="href" css:content="#portal-logo" css:theme="a.navbar-brand" />
+        <copy attributes="href" css:content="#portal-logo" css:theme="a.app-brand" />
 
         <!-- Portal searchbox -->
         <!--<copy attributes="action" css:content="#portal-searchbox form"
@@ -71,6 +77,10 @@
         <replace css:content="#portal-globalnav li"
             css:theme-children="#app-navbar-nav" />
 
+        <replace css:content="#app-banner"
+            css:theme="#app-banner"
+            css:if-content="#app-banner" />
+            
         <!-- Breadcrumbs -->
         <replace css:content-children='#portal-breadcrumbs'
             css:theme-children='#breadcrumbs' />
@@ -88,6 +98,16 @@
         <replace css:content-children="#content"
                 css:theme-children="#app-signin-content"
                 css:if-content="body.template-mail_password_form" />
+        <replace css:content-children="#content"
+                css:theme-children="#app-signin-content"
+                css:if-content="body.template-mail_password_response" />
+        <replace css:content-children="#content"
+                css:theme-children="#app-signin-content"
+                css:if-content="body.template-pwreset_form" />
+        <replace css:content-children="#content"
+                css:theme-children="#app-signin-content"
+                css:if-content="body.template-pwreset_finish" />
+
 
         <!-- Document Content -->
         <replace css:content-children="#content" 
@@ -95,16 +115,23 @@
         
         <before css:content=".portalMessage" css:theme="#content" />
         <replace css:content-children="#viewlet-below-content"
-            css:theme-children="#below-main-content" />
+            css:theme-children="#app-below-main-content" />
 
         <!-- Columns -->
         <replace css:content-children="#portal-column-one > *"
-            css:theme-children="#app-sidebar-left" />
+            css:theme-children="#app-col-sidebar" />
         <replace css:content-children="#portal-column-two > *"
-            css:theme-children="#app-sidebar-right" />
+            css:theme-children="#sidebar-right" />
         <!-- example for the fixed.html template -->
         <replace css:content-children="#portal-column-two > *"
-            css:theme-children="#app-sidebar" />
+            css:theme-children="#sidebar" />
+
+        <!-- Conditions for the language specific drop are based on
+            #app-language-de or #app-langage-en ids -->
+        <drop css:theme="#app-footer-en"
+            css:if-content="#app-language-de" />
+        <drop css:theme="#app-footer-de"
+            css:if-content="#app-language-en" />
 
     </rules>
 

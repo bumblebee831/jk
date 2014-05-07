@@ -1,0 +1,73 @@
+//
+// Actionbar
+// -----------------------------------------
+
+.app-actionbar {
+    min-height: @navbar-height;
+    padding: (@line-height-computed / 1.5);
+    background: @app-gray;
+    color: #fff;
+    font-size: @font-size-small;
+    &.app-actionbar-primary {
+        margin-top: @line-height-computed;
+        background: @brand-primary;
+        color: #fff;
+    }
+}
+
+.app-actionbar-content {
+    font-size: @font-size-base;
+    padding-top: 0;
+
+    a {
+        color: white;
+    }
+}
+
+.app-actionbar-linkbar {
+    padding-top: (@line-height-computed / 4);
+}
+
+.app-actionbar-sm {
+    text-align: center;
+    color: @brand-primary;
+    font-size: ceil(@font-size-base * 1.25);
+    > a {
+        padding-right: ceil(@line-height-computed / 3);
+        color: white;
+    }
+    @media (min-width: @screen-md) {
+        text-align: right;
+        > a {
+            padding-right: @line-height-computed;
+        }
+    }
+}
+
+.app-actionbar-language {
+    padding-top: 0;
+    color: @brand-primary;
+    font-size: @font-size-base;
+    > a {
+        padding-right: ceil(@line-height-computed / 3);
+    }
+    @media (min-width: @screen-sm) {
+        padding-top: 0;
+        font-size: (@font-size-base * 1.2);
+    }
+}
+
+.app-actionbar-search {
+    @media (min-width: @screen-sm) {
+        text-align: right;
+    }
+}
+
+.app-actionbar-primary {
+    .h3 {
+        font-size: @font-size-base;
+    }
+    a {
+        color: #fff;
+    }   
+}
