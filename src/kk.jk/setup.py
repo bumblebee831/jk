@@ -3,9 +3,9 @@ import os
 
 version = '1.0'
 
-setup(name='example.sitetheme',
+setup(name='kk.jk',
       version=version,
-      description="Example Diazo Plone Theme",
+      description="Jeremy Krauss Diazo Plone Theme",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -15,12 +15,12 @@ setup(name='example.sitetheme',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='Vorwaerts Werbung GbR',
-      author_email='hallo@vorwaerts-werbung.de',
+      author='Kreativkombinat GbR',
+      author_email='hallo@kreativkombinat.de',
       url='http://dist.vorwaerts-werbung.de',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['example'],
+      namespace_packages=['kk'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

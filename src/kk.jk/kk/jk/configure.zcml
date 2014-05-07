@@ -4,7 +4,7 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="example.sitetheme">
+    i18n_domain="kk.jk">
 
   <five:registerPackage package="." initialize=".initialize" />
 
@@ -12,9 +12,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="example.sitetheme"
+      title="Jeremy Krauss Diazo Plone Theme"
       directory="profiles/default"
-      description="Installs the example.sitetheme package"
+      description="Installs the kk.jk package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <!-- -*- extra stuff goes here -*- -->
