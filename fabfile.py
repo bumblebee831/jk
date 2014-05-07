@@ -13,11 +13,11 @@ env.use_ssh_config = True
 env.forward_agent = True
 env.port = '22222'
 env.user = 'root'
-env.hosts = ['6zu4']
+env.hosts = ['noah']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/plonesite/buildout.plonesite'
-env.local_root = '/Users/cb/dev/ade25/ade25.blueprint'
-env.sitename = 'plonesite'
+env.code_root = '/opt/sites/jk/buildout.jk'
+env.local_root = '/Users/sd/dev/jk/buildout.jk'
+env.sitename = 'jk'
 env.code_user = 'root'
 env.prod_user = 'www'
 

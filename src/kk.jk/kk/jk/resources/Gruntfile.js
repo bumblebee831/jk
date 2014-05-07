@@ -139,8 +139,7 @@ module.exports = function (grunt) {
             ico: {
                 expand: true,
                 flatten: true,
-                cwd: 'bower_components/',
-                src: ['bootstrap/assets/ico/*'],
+                src: ['assets/ico/*'],
                 dest: 'dist/assets/ico/'
             },
             images: {
@@ -193,9 +192,24 @@ module.exports = function (grunt) {
             },
             'clean-source-js': {
                 path: 'dist/',
-                pattern: '../dist/js/rms.js',
-                replacement: 'js/rms.min.js',
+                pattern: '../dist/js/jk.js',
+                replacement: 'js/jk.min.js',
                 recursive: true
+            },
+            'clean-logo': {
+                path: 'dist/theme.html',
+                pattern: '../assets/img/jk.png',
+                replacement: '/++theme++kk.jk/dist/assets/img/jk.png'
+            },
+            'clean-logo-signin': {
+                path: 'dist/signin.html',
+                pattern: '../assets/img/jk.png',
+                replacement: '/++theme++kk.jk/dist/assets/img/jk.png'
+            },
+            'clean-claim': {
+                path: 'dist/theme.html',
+                pattern: '../assets/img/claim.png',
+                replacement: '/++theme++kk.jk/dist/assets/img/claim.png'
             }
         },
 
