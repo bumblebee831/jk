@@ -4,4 +4,21 @@
 
 .app-brandbar {
     padding: @line-height-computed;
+    #gradient > .vertical (@start-color: @app-primary; @end-color: @app-danger);
+
+    .app-brand {
+        text-decoration: none !important;
+    }
+
+    .app-brandname {
+        color: white;
+        font-size: (@font-size-base * 3);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .app-brand-claim {
+        color: white;
+        font-size: (@font-size-base * 1.5);
+    }
 }

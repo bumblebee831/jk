@@ -1167,7 +1167,7 @@ html
 }
 body
 {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Verdana', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.42857143;
 
@@ -14751,7 +14751,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding: 14.66666667px;
 
     color: #fff;
-    background: #5a5f64;
+    background: #4281b7;
 }
 .app-actionbar.app-actionbar-primary
 {
@@ -14838,6 +14838,32 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .app-brandbar
 {
     padding: 22px;
+
+    background-image: -webkit-linear-gradient(top, #66aee9 0%, #4281b7 100%);
+    background-image:      -o-linear-gradient(top, #66aee9 0%, #4281b7 100%);
+    background-image:         linear-gradient(to bottom, #66aee9 0%, #4281b7 100%);
+    background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff66aee9', endColorstr='#ff4281b7', GradientType=0);
+}
+.app-brandbar .app-brand
+{
+    text-decoration: none !important;
+}
+.app-brandbar .app-brandname
+{
+    font-size: 48px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    color: white;
+}
+.app-brandbar .app-brand-claim
+{
+    font-size: 24px;
+
+    color: white;
 }
 .app-footer
 {
@@ -14946,5 +14972,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .app-sign .icon-bar + .icon-bar
 {
     margin-top: 4px;
+}
+.app-languagebar
+{
+    font-size: 16px;
+}
+.app-languagebar ul
+{
+    margin: 0;
+    padding: 0;
+}
+.app-languagebar ul li
+{
+    display: inline;
+}
+.app-languagebar ul li a
+{
+    border: 0 !important;
+}
+.app-languagebar ul li a:hover
+{
+    background: none;
 }
 /*# sourceMappingURL=jk.css.map */
