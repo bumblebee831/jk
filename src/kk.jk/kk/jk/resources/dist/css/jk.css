@@ -1168,7 +1168,7 @@ html
 body
 {
     font-family: 'Verdana', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857143;
 
     color: #333;
@@ -1255,8 +1255,8 @@ img.image-right a > img,
 }
 hr
 {
-    margin-top: 22px;
-    margin-bottom: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     border: 0;
     border-top: 1px solid #eee;
@@ -1343,8 +1343,8 @@ h2,
 h3,
 .h3
 {
-    margin-top: 22px;
-    margin-bottom: 11px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 h1 small,
 .h1 small,
@@ -1368,8 +1368,8 @@ h5,
 h6,
 .h6
 {
-    margin-top: 11px;
-    margin-bottom: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h4 small,
 .h4 small,
@@ -1389,50 +1389,50 @@ h6 .small,
 h1,
 .h1
 {
-    font-size: 41px;
+    font-size: 36px;
 }
 h2,
 .h2
 {
-    font-size: 34px;
+    font-size: 30px;
 }
 h3,
 .h3
 {
-    font-size: 28px;
+    font-size: 24px;
 }
 h4,
 .h4
 {
-    font-size: 20px;
+    font-size: 18px;
 }
 h5,
 .h5
 {
-    font-size: 16px;
+    font-size: 14px;
 }
 h6,
 .h6
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 p
 {
-    margin: 0 0 11px;
+    margin: 0 0 10px;
 }
 .lead
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
 
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 @media (min-width: 768px)
 {
     .lead
     {
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 small,
@@ -1554,8 +1554,8 @@ a.bg-danger:hover
 }
 .page-header
 {
-    margin: 44px 0 22px;
-    padding-bottom: 10px;
+    margin: 40px 0 20px;
+    padding-bottom: 9px;
 
     border-bottom: 1px solid #eee;
 }
@@ -1563,7 +1563,7 @@ ul,
 ol
 {
     margin-top: 0;
-    margin-bottom: 11px;
+    margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -1595,7 +1595,7 @@ ol ol
 dl
 {
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 dt,
 dd
@@ -1644,10 +1644,10 @@ abbr[data-original-title]
 }
 blockquote
 {
-    font-size: 20px;
+    font-size: 17.5px;
 
-    margin: 0 0 22px;
-    padding: 11px 22px;
+    margin: 0 0 20px;
+    padding: 10px 20px;
 
     border-left: 5px solid #eee;
 }
@@ -1713,7 +1713,7 @@ address
     font-style: normal;
     line-height: 1.42857143;
 
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 code,
 kbd,
@@ -1745,13 +1745,13 @@ kbd
 }
 pre
 {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.42857143;
 
     display: block;
 
-    margin: 0 0 11px;
-    padding: 10.5px;
+    margin: 0 0 10px;
+    padding: 9.5px;
 
     word-wrap: break-word;
     word-break: break-all;
@@ -2681,7 +2681,7 @@ th
 .table
 {
     width: 100%;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -2896,7 +2896,7 @@ table th[class*='col-']
         overflow-y: hidden;
 
         width: 100%;
-        margin-bottom: 16.5px;
+        margin-bottom: 15px;
 
         border: 1px solid #ddd;
 
@@ -2956,13 +2956,13 @@ fieldset
 }
 legend
 {
-    font-size: 24px;
+    font-size: 21px;
     line-height: inherit;
 
     display: block;
 
     width: 100%;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     padding: 0;
 
     color: #333;
@@ -3017,7 +3017,7 @@ input[type='checkbox']:focus
 }
 output
 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857143;
 
     display: block;
@@ -3028,13 +3028,13 @@ output
 }
 .form-control
 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857143;
 
     display: block;
 
     width: 100%;
-    height: 36px;
+    height: 34px;
     padding: 6px 12px;
 
     -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -3091,7 +3091,7 @@ input[type='time'],
 input[type='datetime-local'],
 input[type='month']
 {
-    line-height: 36px;
+    line-height: 34px;
     line-height: 1.42857143 \0;
 }
 input[type='date'].input-sm,
@@ -3099,14 +3099,14 @@ input[type='time'].input-sm,
 input[type='datetime-local'].input-sm,
 input[type='month'].input-sm
 {
-    line-height: 33px;
+    line-height: 30px;
 }
 input[type='date'].input-lg,
 input[type='time'].input-lg,
 input[type='datetime-local'].input-lg,
 input[type='month'].input-lg
 {
-    line-height: 49px;
+    line-height: 46px;
 }
 .form-group
 {
@@ -3117,7 +3117,7 @@ input[type='month'].input-lg
 {
     display: block;
 
-    min-height: 22px;
+    min-height: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -3181,19 +3181,19 @@ fieldset[disabled] .checkbox-inline
 }
 .input-sm
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
 
-    height: 33px;
+    height: 30px;
     padding: 5px 10px;
 
     border-radius: 3px;
 }
 select.input-sm
 {
-    line-height: 33px;
+    line-height: 30px;
 
-    height: 33px;
+    height: 30px;
 }
 textarea.input-sm,
 select[multiple].input-sm
@@ -3202,19 +3202,19 @@ select[multiple].input-sm
 }
 .input-lg
 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.33;
 
-    height: 49px;
+    height: 46px;
     padding: 10px 16px;
 
     border-radius: 6px;
 }
 select.input-lg
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea.input-lg,
 select[multiple].input-lg
@@ -3227,37 +3227,37 @@ select[multiple].input-lg
 }
 .has-feedback .form-control
 {
-    padding-right: 45px;
+    padding-right: 42.5px;
 }
 .form-control-feedback
 {
-    line-height: 36px;
+    line-height: 34px;
 
     position: absolute;
     z-index: 2;
-    top: 27px;
+    top: 25px;
     right: 0;
 
     display: block;
 
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
 
     text-align: center;
 }
 .input-lg + .form-control-feedback
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    width: 49px;
-    height: 49px;
+    width: 46px;
+    height: 46px;
 }
 .input-sm + .form-control-feedback
 {
-    line-height: 33px;
+    line-height: 30px;
 
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
 }
 .has-success .help-block,
 .has-success .control-label,
@@ -3444,7 +3444,7 @@ select[multiple].input-lg
 .form-horizontal .radio,
 .form-horizontal .checkbox
 {
-    min-height: 29px;
+    min-height: 27px;
 }
 .form-horizontal .form-group
 {
@@ -3473,7 +3473,7 @@ select[multiple].input-lg
 }
 .btn
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.42857143;
 
@@ -3852,7 +3852,7 @@ fieldset[disabled] .btn-link:focus
 .btn-lg,
 .btn-group-lg > .btn
 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.33;
 
     padding: 10px 16px;
@@ -3862,7 +3862,7 @@ fieldset[disabled] .btn-link:focus
 .btn-sm,
 .btn-group-sm > .btn
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
 
     padding: 5px 10px;
@@ -3872,7 +3872,7 @@ fieldset[disabled] .btn-link:focus
 .btn-xs,
 .btn-group-xs > .btn
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
 
     padding: 1px 5px;
@@ -3961,7 +3961,7 @@ tbody.collapse.in
 }
 .dropdown-menu
 {
-    font-size: 16px;
+    font-size: 14px;
 
     position: absolute;
     z-index: 1000;
@@ -3997,7 +3997,7 @@ tbody.collapse.in
     overflow: hidden;
 
     height: 1px;
-    margin: 10px 0;
+    margin: 9px 0;
 
     background-color: #e5e5e5;
 }
@@ -4070,7 +4070,7 @@ tbody.collapse.in
 }
 .dropdown-header
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.42857143;
 
     display: block;
@@ -4363,10 +4363,10 @@ tbody.collapse.in
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn
 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.33;
 
-    height: 49px;
+    height: 46px;
     padding: 10px 16px;
 
     border-radius: 6px;
@@ -4375,9 +4375,9 @@ select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
@@ -4392,9 +4392,9 @@ select.input-group-lg > .form-control,
 select.input-group-lg > .input-group-addon,
 select.input-group-lg > .input-group-btn > .btn
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea.input-group-lg > .form-control,
 textarea.input-group-lg > .input-group-addon,
@@ -4409,10 +4409,10 @@ select[multiple].input-group-lg > .input-group-btn > .btn
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
 
-    height: 33px;
+    height: 30px;
     padding: 5px 10px;
 
     border-radius: 3px;
@@ -4421,9 +4421,9 @@ select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn
 {
-    line-height: 33px;
+    line-height: 30px;
 
-    height: 33px;
+    height: 30px;
 }
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
@@ -4438,9 +4438,9 @@ select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn
 {
-    line-height: 33px;
+    line-height: 30px;
 
-    height: 33px;
+    height: 30px;
 }
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
@@ -4473,7 +4473,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .input-group-addon
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1;
 
@@ -4488,7 +4488,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .input-group-addon.input-sm
 {
-    font-size: 14px;
+    font-size: 12px;
 
     padding: 5px 10px;
 
@@ -4496,7 +4496,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .input-group-addon.input-lg
 {
-    font-size: 20px;
+    font-size: 18px;
 
     padding: 10px 16px;
 
@@ -4622,7 +4622,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     overflow: hidden;
 
     height: 1px;
-    margin: 10px 0;
+    margin: 9px 0;
 
     background-color: #e5e5e5;
 }
@@ -4834,7 +4834,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     position: relative;
 
     min-height: 50px;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 
     border: 1px solid transparent;
 }
@@ -4974,13 +4974,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-brand
 {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 20px;
 
     float: left;
 
     height: 50px;
-    padding: 14px 15px;
+    padding: 15px 15px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus
@@ -5037,11 +5037,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-nav
 {
-    margin: 7px -15px;
+    margin: 7.5px -15px;
 }
 .navbar-nav > li > a
 {
-    line-height: 22px;
+    line-height: 20px;
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -5068,7 +5068,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     }
     .navbar-nav .open .dropdown-menu > li > a
     {
-        line-height: 22px;
+        line-height: 20px;
     }
     .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus
@@ -5090,8 +5090,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     }
     .navbar-nav > li > a
     {
-        padding-top: 14px;
-        padding-bottom: 14px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
     .navbar-nav.navbar-right:last-child
     {
@@ -5113,9 +5113,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-form
 {
-    margin-top: 7px;
+    margin-top: 8px;
     margin-right: -15px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     margin-left: -15px;
     padding: 10px 15px;
 
@@ -5227,13 +5227,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-btn
 {
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .navbar-btn.btn-sm
 {
-    margin-top: 8.5px;
-    margin-bottom: 8.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .navbar-btn.btn-xs
 {
@@ -5242,8 +5242,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-text
 {
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 @media (min-width: 768px)
 {
@@ -5507,7 +5507,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 }
 .breadcrumb
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     padding: 8px 15px;
 
     list-style: none;
@@ -5535,7 +5535,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 {
     display: inline-block;
 
-    margin: 22px 0;
+    margin: 20px 0;
     padding-left: 0;
 
     border-radius: 4px;
@@ -5616,7 +5616,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 .pagination-lg > li > a,
 .pagination-lg > li > span
 {
-    font-size: 20px;
+    font-size: 18px;
 
     padding: 10px 16px;
 }
@@ -5635,7 +5635,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 .pagination-sm > li > a,
 .pagination-sm > li > span
 {
-    font-size: 14px;
+    font-size: 12px;
 
     padding: 5px 10px;
 }
@@ -5653,7 +5653,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 }
 .pager
 {
-    margin: 22px 0;
+    margin: 20px 0;
     padding-left: 0;
 
     list-style: none;
@@ -5792,7 +5792,7 @@ a.label:focus
 }
 .badge
 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     line-height: 1;
 
@@ -5857,7 +5857,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron p
 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 200;
 
     margin-bottom: 15px;
@@ -5889,7 +5889,7 @@ a.list-group-item.active > .badge,
     .jumbotron h1,
   .jumbotron .h1
     {
-        font-size: 72px;
+        font-size: 63px;
     }
 }
 .thumbnail
@@ -5898,7 +5898,7 @@ a.list-group-item.active > .badge,
 
     display: block;
 
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     padding: 4px;
 
     -webkit-transition: all .2s ease-in-out;
@@ -5929,7 +5929,7 @@ a.thumbnail.active
 }
 .alert
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     padding: 15px;
 
     border: 1px solid transparent;
@@ -6037,8 +6037,8 @@ a.thumbnail.active
 {
     overflow: hidden;
 
-    height: 22px;
-    margin-bottom: 22px;
+    height: 20px;
+    margin-bottom: 20px;
 
     border-radius: 4px;
     background-color: #f5f5f5;
@@ -6047,8 +6047,8 @@ a.thumbnail.active
 }
 .progress-bar
 {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 12px;
+    line-height: 20px;
 
     float: left;
 
@@ -6384,7 +6384,7 @@ a.list-group-item-danger.active:focus
 }
 .panel
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 
     border: 1px solid transparent;
     border-radius: 4px;
@@ -6410,7 +6410,7 @@ a.list-group-item-danger.active:focus
 }
 .panel-title
 {
-    font-size: 18px;
+    font-size: 16px;
 
     margin-top: 0;
     margin-bottom: 0;
@@ -6591,7 +6591,7 @@ a.list-group-item-danger.active:focus
 }
 .panel-group
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 .panel-group .panel
 {
@@ -6791,7 +6791,7 @@ a.list-group-item-danger.active:focus
 }
 .close
 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
     line-height: 1;
 
@@ -6987,7 +6987,7 @@ button.close
 }
 .tooltip
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.4;
 
     position: absolute;
@@ -7161,7 +7161,7 @@ button.close
 }
 .popover-title
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 18px;
 
@@ -9707,7 +9707,7 @@ ul.formTabs:after,
 #plone-contentmenu-workflow .state-pending,
 #plone-contentmenu-workflow .state-expired
 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     line-height: 1;
 
@@ -9961,7 +9961,7 @@ div.field span.required:after
 }
 #contentActionMenus dl.actionMenu
 {
-    line-height: 22px;
+    line-height: 20px;
 }
 #folderHeader,
 #contextHeader
@@ -10122,7 +10122,7 @@ a.historyComparePrevious span
 /* @end */
 ul.formTabs
 {
-    margin: 0 0 11px;
+    margin: 0 0 10px;
     margin-bottom: 0;
     padding-left: 0;
 
@@ -10178,7 +10178,7 @@ ul.formTabs .nav-divider
     overflow: hidden;
 
     height: 1px;
-    margin: 10px 0;
+    margin: 9px 0;
 
     background-color: #e5e5e5;
 }
@@ -10284,7 +10284,7 @@ ul.formTabs li
 }
 ul.formTabs li a
 {
-    line-height: 16px;
+    line-height: 14px;
 
     display: block;
 
@@ -10311,13 +10311,13 @@ input.standalone,
 input.addreference,
 input.submit-widget
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.42857143;
 
     display: inline-block;
 
-    margin-right: 11px;
+    margin-right: 10px;
     margin-bottom: 0;
     padding: 6px 12px;
 
@@ -10578,13 +10578,13 @@ input[type='search'],
 input[type='tel'],
 input[type='color']
 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857143;
 
     display: block;
 
     width: 100%;
-    height: 36px;
+    height: 34px;
     padding: 6px 12px;
 
     -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -10758,19 +10758,19 @@ textarea
 }
 .input-sm
 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
 
-    height: 33px;
+    height: 30px;
     padding: 5px 10px;
 
     border-radius: 3px;
 }
 select.input-sm
 {
-    line-height: 33px;
+    line-height: 30px;
 
-    height: 33px;
+    height: 30px;
 }
 textarea.input-sm,
 select[multiple].input-sm
@@ -10779,19 +10779,19 @@ select[multiple].input-sm
 }
 .input-lg
 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.33;
 
-    height: 49px;
+    height: 46px;
     padding: 10px 16px;
 
     border-radius: 6px;
 }
 select.input-lg
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea.input-lg,
 select[multiple].input-lg
@@ -10803,7 +10803,7 @@ input[type='checkbox'] + label,
 {
     display: inline-block;
 
-    margin-left: 5.5px;
+    margin-left: 5px;
 }
 input.datetime-widget,
 select.datetime-widget,
@@ -10819,10 +10819,10 @@ select.datetime-widget,
 #form-widgets-title,
 #archetypes-fieldname-title input
 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.33;
 
-    height: 49px;
+    height: 46px;
     padding: 10px 16px;
 
     border-radius: 6px;
@@ -10833,9 +10833,9 @@ select#form-widgets-IBasic-title,
 select#form-widgets-title,
 select#archetypes-fieldname-title input
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea#content .field input[type='text'][name$='.title'],
 textarea#form-widgets-IBasic-title,
@@ -10853,9 +10853,9 @@ select#form-widgets-IBasic-title,
 select#form-widgets-title,
 select#archetypes-fieldname-title input
 {
-    line-height: 49px;
+    line-height: 46px;
 
-    height: 49px;
+    height: 46px;
 }
 textarea#content .field input[type='text'][name$='.title'],
 textarea#form-widgets-IBasic-title,
@@ -10909,9 +10909,9 @@ div.field div.label,
 div.field span.label,
 div.field label
 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 20px;
 
     padding: 0;
 
@@ -10945,7 +10945,7 @@ div.formHelp
 }
 .formControls
 {
-    padding-top: 11px;
+    padding-top: 10px;
 }
 .fieldRequired,
 span.required
@@ -10981,8 +10981,8 @@ div.overlaybg div.close,
 div.overlay div.close
 {
     position: absolute;
-    top: 11px;
-    right: 11px;
+    top: 10px;
+    right: 10px;
 
     width: 30px;
     height: 30px;
@@ -11053,7 +11053,7 @@ div.overlay #createGroup fieldset
 }
 div.overlay p
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 div.overlay label
 {
@@ -11080,7 +11080,7 @@ table.listing,
 table.plain
 {
     width: 100%;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 table.listing > thead > tr > th,
 table.plain > thead > tr > th,
@@ -11252,7 +11252,7 @@ table.grid th
 {
     font-size: 11px;
 
-    margin: 22px 0;
+    margin: 20px 0;
 }
 #category a.link-category,
 #category span.selectedTag
@@ -11275,7 +11275,7 @@ table.grid th
 dl.portalMessage
 {
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     margin-bottom: 0;
     padding: 15px;
 
@@ -11357,11 +11357,11 @@ dl.portalMessage.error .alert-link
 }
 body > .portalMessage
 {
-    padding-top: 61px;
+    padding-top: 60px;
 }
 .listingBar
 {
-    margin: 22px 0;
+    margin: 20px 0;
     padding-left: 0;
 
     list-style: none;
@@ -11438,7 +11438,7 @@ body > .portalMessage
 }
 .avatar
 {
-    line-height: 22px;
+    line-height: 20px;
 
     margin-right: 2px;
 
@@ -11453,21 +11453,21 @@ body > .portalMessage
 }
 .avatar.avatar-small
 {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 }
 /* @group Image alignment classes */
 .image-left
 {
     float: left;
 
-    margin: 11px 22px 22px 0;
+    margin: 10px 20px 20px 0;
 }
 .image-right
 {
     float: right;
 
-    margin: 11px 0 22px 22px;
+    margin: 10px 0 20px 20px;
 }
 .image-inline
 {
@@ -11483,7 +11483,7 @@ img.image-right,
 
     display: block;
 
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     padding: 4px;
 
     -webkit-transition: all .2s ease-in-out;
@@ -11539,7 +11539,7 @@ dd.image-caption
 .text-discreet,
 .discreet
 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 1;
 
     color: #999;
@@ -11552,15 +11552,15 @@ dd.image-caption
 .text-pullquote,
 .pullquote
 {
-    line-height: 22px;
-    line-height: 19px;
+    line-height: 20px;
+    line-height: 17px;
 
     float: right;
     clear: right;
 
     width: 35%;
-    margin: 22px 0 22px 22px;
-    padding: 11px 22px;
+    margin: 20px 0 20px 20px;
+    padding: 10px 20px;
 
     color: #999;
     border-left: 5px solid #999;
@@ -11571,8 +11571,8 @@ dd.image-caption
 {
     clear: both;
 
-    margin: 0 0 22px;
-    padding: 22px;
+    margin: 0 0 20px;
+    padding: 20px;
 
     border-left: 5px solid #999;
     background: #eee;
@@ -14681,7 +14681,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     margin-top: 50px;
 
-    border-top: 11px solid #4281b7;
+    border-top: 10px solid #4281b7;
 }
 .app-signin
 {
@@ -14707,7 +14707,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     position: relative;
 
-    padding: 44px 22px;
+    padding: 40px 20px;
 }
 .page-signin
 {
@@ -14716,7 +14716,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .page-signin .page-content
 {
-    padding: 22px;
+    padding: 20px;
 }
 @media (min-width: 768px)
 {
@@ -14727,7 +14727,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .page-signin .documentDescription
 {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 .page-signin p
 {
@@ -14741,28 +14741,28 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-register-actions
 {
-    padding: 22px 0;
+    padding: 20px 0;
 }
 .app-actionbar
 {
-    font-size: 14px;
+    font-size: 12px;
 
     min-height: 50px;
-    padding: 14.66666667px;
+    padding: 13.33333333px;
 
     color: #fff;
     background: #4281b7;
 }
 .app-actionbar.app-actionbar-primary
 {
-    margin-top: 22px;
+    margin-top: 20px;
 
     color: #fff;
     background: #4281b7;
 }
 .app-actionbar-content
 {
-    font-size: 16px;
+    font-size: 14px;
 
     padding-top: 0;
 }
@@ -14772,11 +14772,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-actionbar-linkbar
 {
-    padding-top: 5.5px;
+    padding-top: 5px;
 }
 .app-actionbar-sm
 {
-    font-size: 20px;
+    font-size: 18px;
 
     text-align: center;
 
@@ -14784,7 +14784,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-actionbar-sm > a
 {
-    padding-right: 8px;
+    padding-right: 7px;
 
     color: white;
 }
@@ -14796,12 +14796,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
     .app-actionbar-sm > a
     {
-        padding-right: 22px;
+        padding-right: 20px;
     }
 }
 .app-actionbar-language
 {
-    font-size: 16px;
+    font-size: 14px;
 
     padding-top: 0;
 
@@ -14809,13 +14809,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-actionbar-language > a
 {
-    padding-right: 8px;
+    padding-right: 7px;
 }
 @media (min-width: 768px)
 {
     .app-actionbar-language
     {
-        font-size: 19.2px;
+        font-size: 16.8px;
 
         padding-top: 0;
     }
@@ -14829,7 +14829,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-actionbar-primary .h3
 {
-    font-size: 16px;
+    font-size: 14px;
 }
 .app-actionbar-primary a
 {
@@ -14837,7 +14837,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-brandbar
 {
-    padding: 22px;
+    padding: 20px;
 
     background-image: -webkit-linear-gradient(top, #66aee9 0%, #4281b7 100%);
     background-image:      -o-linear-gradient(top, #66aee9 0%, #4281b7 100%);
@@ -14852,7 +14852,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-brandbar .app-brandname
 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 600;
 
     text-transform: uppercase;
@@ -14861,19 +14861,27 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-brandbar .app-brand-claim
 {
-    font-size: 24px;
+    font-size: 21px;
 
     color: white;
 }
 .app-footer
 {
-    padding: 22px;
+    font-size: 11.66666667px;
 
-    border-top: 5px solid #4281b7;
+    padding: 20px;
+
+    text-transform: uppercase;
+
+    border-top: 10px solid #4281b7;
 }
 .app-toolbar + .app-actionbar
 {
     margin-top: 50px;
+}
+.label:empty
+{
+    display: inline;
 }
 .app-header
 {
@@ -14892,7 +14900,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-header p
 {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 200;
 
     margin-bottom: 15px;
@@ -14924,7 +14932,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     .app-header h1,
   .app-header .h1
     {
-        font-size: 72px;
+        font-size: 63px;
     }
 }
 .app-sign
@@ -14936,12 +14944,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     width: 50px;
     height: 50px;
-    padding: 11px;
+    padding: 10px;
 
     text-align: center;
 
     color: #eee;
-    border: 6px solid #eee;
+    border: 5px solid #eee;
     border-radius: 25px;
 }
 .app-sign.app-sign-large
@@ -14950,7 +14958,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     width: 100px;
     height: 100px;
-    padding: 22px;
+    padding: 20px;
 
     border-radius: 50px;
 }
@@ -14975,7 +14983,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-languagebar
 {
-    font-size: 16px;
+    font-size: 14px;
 }
 .app-languagebar ul
 {
