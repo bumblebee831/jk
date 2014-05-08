@@ -77,6 +77,9 @@
         <replace css:content="#portal-globalnav li"
             css:theme-children="#app-navbar-nav" />
 
+        <drop css:theme="#app-banner"
+            css:if-not-content="#app-banner" />
+
         <replace css:content="#app-banner"
             css:theme="#app-banner"
             css:if-content="#app-banner" />
@@ -112,6 +115,13 @@
         <!-- Document Content -->
         <replace css:content-children="#content" 
             css:theme-children="#content" />
+
+        <drop css:theme="#app-banner"
+            css:if-not-content="#app-banner" />
+
+        <replace css:content="#app-banner"
+            css:theme="#app-banner"
+            css:if-content="#app-banner" />
         
         <before css:content=".portalMessage" css:theme="#content" />
         <replace css:content-children="#viewlet-below-content"
