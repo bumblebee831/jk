@@ -1,0 +1,212 @@
+/* Portlets specific styles */
+
+.portlet {
+    margin: 0px 0px 20px 0px;
+    background: white;
+    padding: 0px;
+    border: 0px solid red;
+}
+
+
+.portletHeader, .managedPortlet .portletHeader {
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+    margin: 0px;
+    font-size: @font-size-base / 1.1;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.portletItem {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+}
+
+.portletItemDetails {
+    text-align: left;
+    display: block;
+    color: black;
+    font-size: 100%;
+    color: #999999;
+}
+
+span.portletItemDetails {
+    display: block;
+}
+
+.portletFooter {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: @font-size-base / 1.2;
+}
+
+.portlet a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.portlet a.tile {
+    display: block;
+    font-size: 100%;
+}
+
+.portletItem ul {
+    list-style-type: none;
+}
+
+.lastItem {
+    padding: 0px 0px 20px 0px !important;
+    border: 0px solid black;
+}
+
+.portletItem p {
+    line-height: @line-height-computed;
+    font-size: @font-size-base / 1.2;
+}
+
+.portletItem a, .portletFooter a {
+  border-bottom: none;
+}
+
+.portletFooter a {
+    border-bottom: none;
+    background: transparent !important;
+    padding: 0px 20px 0px 0px;
+    font-weight: normal !important;
+}
+
+.portletStaticText {
+    margin: 0px 0px 20px 0px;
+    vertical-align: top;
+    padding: 10px;
+
+    .image-inline {
+        max-width: 100%;
+    }
+}
+
+.portletStaticText p {
+    padding: 0px 0px 0px 0px;
+    line-height: @line-height-computed;
+    margin-bottom: @line-height-computed / 2;
+}
+
+.portletStaticText ul {
+    list-style-image: none;
+    list-style-type: square;
+    margin: 0.5em 0 0 1.5em;
+}
+
+.portletStaticText ol {
+    margin: 0.5em 0 0 2em;
+}
+
+/* Portlets Navigation Styles */
+
+.portletNavigationTree {
+    padding: 0px;
+    margin: 0px;
+    list-style: none !important;
+    list-style-image: none !important;
+    line-height: 1em;
+    width: 100%;
+    background: transparent;
+}
+
+.portletNavigationTree .portletHeader {
+    display: none;
+}
+
+.portletNavigationTree .portletItem {
+    margin: 0px !important;
+}
+
+.portletNavigationTree .lastItem {
+    padding: 0px !important;
+}
+
+.navTree {
+    list-style: none;
+    list-style-image: none;
+    margin-top: 1px;
+    margin-left: 0px !important;
+}
+
+ul.navTree {
+    margin-left: 0px !important;
+    padding-left: 0px;
+}
+
+.navTree li {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.navTreeItem {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.navTreeItem a, dd.portletItem .navTreeItem a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 0px 0px 10px !important;
+    margin: 0px 0px 10px 0px;
+    font-size: @font-size-base;
+    text-align: left;
+    text-transform: uppercase;
+    background: @app-primary;
+    color: white;
+}
+
+.navTreeLevel1 .navTreeItem a {
+    background: #cccccc !important;
+}
+
+.navTreeItem a {
+    background: transparent;
+    line-height: @line-height-computed * 2;
+}
+
+.navTreeItem a:hover {
+    background: @brand-success !important;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    margin-left: 0px;
+    margin-right: 0px;
+    background: @brand-success !important;
+}
+
+.navTreeCurrentItem li a {
+    text-transform: none;
+    background: @brand-success !important;
+    border: 1px solid red;
+}
+
+.navTreeLevel1 .navTreeCurrentItem {
+    text-transform: none;
+}
+
+.navTreeLevel1 {
+    margin: -10px 0px 10px 0px !important;
+    text-transform: none;
+}
+
+.navTreeItem .navTreeLevel1 li a:link {
+    padding-left: @line-height-computed / 1.5 !important;
+    font-size: @font-size-base / 1.2;
+    text-transform: none;
+}
+
+.navTreeLevel2 {
+    margin-left: 0px !important;
+}
+
+.navTreeItem .navTreeLevel2 li a:link {
+    padding-left: @line-height-computed / 0.8 !important;
+    font-size: @font-size-base / 1.5;
+    text-transform: none;
+}

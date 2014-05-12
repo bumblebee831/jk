@@ -14699,7 +14699,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-image:      -o-linear-gradient(top, #fff 0%, #eee 100%);
     background-image:         linear-gradient(to bottom, #fff 0%, #eee 100%);
     background-repeat: repeat-x;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffeeeeee', GradientType=0);
 }
@@ -14708,6 +14708,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     position: relative;
 
     padding: 40px 20px;
+}
+.page-aside .app-brandname
+{
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+.page-aside .app-brand-claim
+{
+    font-size: 12px;
 }
 .page-signin
 {
@@ -15514,6 +15524,254 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #carousel-featuredwork .carousel-indicators
 {
     margin-left: -31%;
+}
+/* Portlets specific styles */
+.portlet
+{
+    margin: 0 0 20px 0;
+    padding: 0;
+
+    border: 0 solid red;
+    background: white;
+}
+.portletHeader,
+.managedPortlet .portletHeader
+{
+    font-size: 12.72727273px;
+    font-weight: bold;
+
+    margin: 0;
+    margin: 0;
+    padding: 0 0 5px 0;
+
+    text-transform: uppercase;
+}
+.portletItem
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border: 0;
+}
+.portletItemDetails
+{
+    font-size: 100%;
+
+    display: block;
+
+    text-align: left;
+
+    color: black;
+    color: #999;
+}
+span.portletItemDetails
+{
+    display: block;
+}
+.portletFooter
+{
+    font-size: 11.66666667px;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+}
+.portlet a
+{
+    font-weight: normal;
+
+    text-decoration: none;
+}
+.portlet a.tile
+{
+    font-size: 100%;
+
+    display: block;
+}
+.portletItem ul
+{
+    list-style-type: none;
+}
+.lastItem
+{
+    padding: 0 0 20px 0 !important;
+
+    border: 0 solid black;
+}
+.portletItem p
+{
+    font-size: 11.66666667px;
+    line-height: 20px;
+}
+.portletItem a,
+.portletFooter a
+{
+    border-bottom: none;
+}
+.portletFooter a
+{
+    font-weight: normal !important;
+
+    padding: 0 20px 0 0;
+
+    border-bottom: none;
+    background: transparent !important;
+}
+.portletStaticText
+{
+    margin: 0 0 20px 0;
+    padding: 10px;
+
+    vertical-align: top;
+}
+.portletStaticText .image-inline
+{
+    max-width: 100%;
+}
+.portletStaticText p
+{
+    line-height: 20px;
+
+    margin-bottom: 10px;
+    padding: 0 0 0 0;
+}
+.portletStaticText ul
+{
+    margin: .5em 0 0 1.5em;
+
+    list-style-type: square;
+    list-style-image: none;
+}
+.portletStaticText ol
+{
+    margin: .5em 0 0 2em;
+}
+/* Portlets Navigation Styles */
+.portletNavigationTree
+{
+    line-height: 1em;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    list-style: none !important;
+    list-style-image: none !important;
+
+    background: transparent;
+}
+.portletNavigationTree .portletHeader
+{
+    display: none;
+}
+.portletNavigationTree .portletItem
+{
+    margin: 0 !important;
+}
+.portletNavigationTree .lastItem
+{
+    padding: 0 !important;
+}
+.navTree
+{
+    margin-top: 1px;
+    margin-left: 0 !important;
+
+    list-style: none;
+    list-style-image: none;
+}
+ul.navTree
+{
+    margin-left: 0 !important;
+    padding-left: 0;
+}
+.navTree li
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navTreeItem
+{
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a
+{
+    font-size: 14px;
+
+    display: block;
+
+    margin: 0 0 10px 0;
+    padding: 0 0 0 10px !important;
+
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    background: #66aee9;
+}
+.navTreeLevel1 .navTreeItem a
+{
+    background: #ccc !important;
+}
+.navTreeItem a
+{
+    line-height: 40px;
+
+    background: transparent;
+}
+.navTreeItem a:hover
+{
+    background: #5cb85c !important;
+}
+dl.portlet ul.navTree .navTreeCurrentItem
+{
+    margin-right: 0;
+    margin-left: 0;
+
+    background: #5cb85c !important;
+}
+.navTreeCurrentItem li a
+{
+    text-transform: none;
+
+    border: 1px solid red;
+    background: #5cb85c !important;
+}
+.navTreeLevel1 .navTreeCurrentItem
+{
+    text-transform: none;
+}
+.navTreeLevel1
+{
+    margin: -10px 0 10px 0 !important;
+
+    text-transform: none;
+}
+.navTreeItem .navTreeLevel1 li a:link
+{
+    font-size: 11.66666667px;
+
+    padding-left: 13.33333333px !important;
+
+    text-transform: none;
+}
+.navTreeLevel2
+{
+    margin-left: 0 !important;
+}
+.navTreeItem .navTreeLevel2 li a:link
+{
+    font-size: 9.33333333px;
+
+    padding-left: 25px !important;
+
+    text-transform: none;
 }
 .app-footer
 {
