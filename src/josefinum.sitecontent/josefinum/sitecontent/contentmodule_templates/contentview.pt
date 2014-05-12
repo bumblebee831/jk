@@ -1,0 +1,17 @@
+<div class="app-module"
+    tal:attributes="class string:app-module ${context/moduleklass}">
+    <div class="row"> 
+      <div class="col-xs-12 col-sm-7">
+        <img tal:condition="context/image"
+             tal:define="scales context/@@images"
+             tal:replace="structure python: scales.tag('image',
+                          css_class='app-module-img',
+                          direction='down')" />
+      </div>
+      <div class="col-xs-12 col-sm-5">
+        <div class="app-module-titel" tal:content="context/Title">Title inserted here</div>
+        <div tal:condition="context/text"
+             tal:content="structure context/text/output" />
+        </div>
+      </div>
+</div>

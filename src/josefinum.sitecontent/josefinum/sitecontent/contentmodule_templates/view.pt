@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="josefinum.sitecontent">
+<body>
+
+<tal:comment tal:condition="nothing">
+    This is a sample view template. It will not be used for rendering the
+    content unless activated by creation of a view class with a matching name.
+</tal:comment>
+
+<metal:main fill-slot="main">
+  <metal:content-core define-macro="main">
+    <div class="app-module"
+    tal:attributes="class string:app-module ${context/moduleklass}">
+    <div class="row"> 
+      <div class="col-xs-12 col-sm-7">
+        <img tal:condition="context/image"
+             tal:define="scales context/@@images"
+             tal:replace="structure python: scales.tag('image',
+                          css_class='app-module-img',
+                          direction='down')" />
+      </div>
+      <div class="col-xs-12 col-sm-5">
+        <div class="app-module-titel" tal:content="context/Title">Title inserted here</div>
+        <div tal:condition="context/text"
+             tal:content="structure context/text/output" />
+        </div>
+      </div>
+</div>
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
+

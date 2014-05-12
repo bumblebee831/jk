@@ -1,0 +1,67 @@
+<<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="josefinum.sitecontent">
+<body>
+
+<metal:main fill-slot="main">
+  <metal:content-core define-macro="main">
+
+    <div class="app-contentpage">
+        <div class="pp-contentpage-header">
+            <h1 class="app-contentpage-title">
+                <span tal:condition="context/headline"
+                    tal:replace="context/headline" />
+                <span tal:condition="not:context/headline"
+                    tal:replace="context/Title" />
+            </h1>
+        </div>
+        <p class="app-contentpage-lead"
+            tal:condition="context/Description"
+            tal:content="context/Description" />
+
+        <div class="app-contentpage-body">
+            <div tal:condition="context/text"
+                tal:replace="structure context/text/output" />
+        </div>
+
+        <div class="app-contentpage-aside">
+            <div class="app-contentmodule-actions"
+                tal:condition="view/can_edit">
+                <a class="btn btn-default btn-sm pull-right"
+                    tal:attributes="href string:${context/absolute_url}/@@manage-modules">
+                    <span i18n:translate="">Manage</span> &#10095;
+                </a>
+                <p class="text-discreet text-muted" i18n:translate="">
+                    Content Modules</p>
+            </div>
+            <tal:block tal:condition="view/can_edit">
+            <div class="app-contentmodule-item"
+                tal:condition="not:view/contained_modules">
+                <p class="text-warning">
+                    <span i18n:translate="">No content modules asigned.</span>
+                    <a tal:attributes="href string:${context/absolute_url}/@@manage-modules">
+                        Hier ein Modul erstellen</a>
+                </p>
+            </div>
+            </tal:block>
+            <div class="app-contentmodule-list"
+                tal:condition="view/contained_modules">
+                <tal:block tal:repeat="item view/contained_modules">
+                    <div class="app-contentmodule-item">
+                        <div tal:replace="structure python:view.rendered_contentmodule(item)" />
+                    </div>
+                </tal:block>
+            </div>
+        </div>
+    </div>
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
+

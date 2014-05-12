@@ -1,0 +1,102 @@
+<<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="josefinum.sitecontent">
+<body>
+
+<metal:main fill-slot="main">
+  <metal:content-core define-macro="main">
+
+    <div class="app-contentpage">
+        <div class="pp-contentpage-header">
+            <h1 class="app-contentpage-title" i18n:translate="">
+                Manage modules
+            </h1>
+        </div>
+
+        <div class="app-contentpage-body" tal:condition="view/has_subcontent">
+            <div class="app-contentmodule-list">
+            <tal:block tal:repeat="item view/contained_modules">
+                <div class="app-contentmodule-item"
+                    tal:define="item_idx repeat/item/index;
+                                uid item/UID;
+                                klass python:view.item_state_klass(uid)"
+                    tal:attributes="class string:acm-item ${klass} ppe-block-sortable animated fadeIn">
+                    <span class="acm-sign acm-sign-draggable acm-dragindicator pull-right">
+                        <span class="acm-icon-bar"></span>
+                        <span class="acm-icon-bar"></span>
+                        <span class="acm-icon-bar"></span>
+                        <span class="acm-icon-bar"></span>
+                    </span>
+                    <a class="acm-action pull-right" href="#ppe-block-main-page"
+                        data-appui="toggle-contentblock"
+                        data-target="#ppe-block-main-page"
+                        tal:attributes="href string:${item/getURL}/delete_confirmation">
+                        <span i18n:translate="">delete</span>
+                    </a>
+                    <a class="acm-action pull-right" href="#ppe-block-main-page"
+                        data-appui="toggle-contentblock"
+                        data-target="#ppe-block-main-page"
+                        tal:attributes="href string:${item/getURL}/edit">
+                        <span i18n:translate="">edit</span>
+                    </a>
+                    <h4 tal:content="item/Title" />
+                </div>
+            </tal:block>
+            </div>
+        </div>
+
+        <div class="app-contentpage-aside">
+            <div class="app-contentmodule-actions">
+                <form class="app-form app-create-form"
+                    id="createBlockForm"
+                    method="post" role="form"
+                    tal:define="errors view/errors"
+                    tal:attributes="action request/URL">
+                    <h4 i18n:translate="">
+                        Add content module
+                    </h4>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group field"
+                                tal:define="error errors/title | nothing;
+                                            err_msg python:error and error['active'] == True;
+                                            value request/title | nothing"
+                                tal:attributes="class python:err_msg and 'form-group has-error' or 'form-group'">
+                                <label class="sr-only" for="title" i18n:translate="">Title</label>
+                                    <input class="form-control" id="title"
+                                        type="text" name="title"
+                                        placeholder="Bitte geben Sie hier den Modulnamen ein"
+                                        tal:attributes="value python:error and view.default_value(error) or value">
+                                    <div class="help-block error"
+                                        tal:condition="err_msg">
+                                      <i class="fa fa-exclamation-triangle"></i>
+                                      <span tal:replace="python:error['msg']" />
+                                    </div>
+                            </div><!-- /title field -->
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <span tal:replace="structure context/@@authenticator/authenticator"/>
+                                <button class="btn btn-primary btn-editpanel"
+                                    name="form.button.Submit"
+                                    id="form.button.Submit"
+                                    i18n:translate="">Create module</button>
+                            </div>
+                        </div>
+                    </div>            
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+  </metal:content-core>
+</metal:main>
+
+</body>
+</html>
+

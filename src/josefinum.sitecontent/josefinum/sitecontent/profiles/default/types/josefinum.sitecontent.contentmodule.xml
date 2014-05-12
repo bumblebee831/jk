@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<object name="josefinum.sitecontent.contentmodule"
+   meta_type="Dexterity FTI"
+   i18n:domain="josefinum.sitecontent" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+  <!-- Basic metadata -->
+  <property name="title" i18n:translate="">ContentModule</property>
+  <property name="description"
+    i18n:translate="">A single module addable to content pages</property>
+  <property name="icon_expr">string:${portal_url}/folder_icon.png</property>
+  <property name="factory">josefinum.sitecontent.contentmodule</property>
+  <property name="global_allow">False</property>
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types">
+    <element value="Image" />
+    <element value="File" />
+  </property>
+  <property name="allow_discussion">False</property>
+
+  <!-- schema and class used for content items -->
+  <property name="schema">josefinum.sitecontent.contentmodule.IContentModule</property>
+  <property name="klass">josefinum.sitecontent.contentmodule.ContentModule</property>
+
+  <property name="behaviors">
+     <element value="plone.app.content.interfaces.INameFromTitle" />
+     <element value="plone.app.dexterity.behaviors.metadata.IBasic"/>
+   </property>
+
+  <!-- View information -->
+  <property name="link_target"></property>
+  <property name="immediate_view">view</property>
+  <property name="default_view">view</property>
+  <property name="view_methods">
+   <element value="view"/>
+  </property>
+  <property name="default_view_fallback">False</property>
+  <property name="add_permission">cmf.AddPortalContent</property>
+
+
+  <!-- Method aliases -->
+  <alias from="(Default)" to="(dynamic view)" />
+  <alias from="view" to="(selected layout)" />
+  <alias from="edit" to="@@edit" />
+  <alias from="sharing" to="@@sharing" />
+
+  <!-- Actions -->
+  <action title="View" action_id="view" category="object" condition_expr=""
+    url_expr="string:${object_url}/" visible="True">
+    <permission value="View" />
+  </action>
+  <action title="Edit" action_id="edit" category="object" condition_expr=""
+    url_expr="string:${object_url}/edit" visible="True">
+    <permission value="Modify portal content" />
+  </action>
+</object>

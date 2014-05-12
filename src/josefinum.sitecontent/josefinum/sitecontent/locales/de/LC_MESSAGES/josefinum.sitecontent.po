@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-03-17 14:44+0000\n"
+"PO-Revision-Date: 2014-03-17 15:57+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Language: de\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: ../profiles/default/types/josefinum.sitecontent.externalpage.xml
+msgid "A page rendering linked content in an iframe"
+msgstr "Eine Seite, die verlinkten Inhalt in einem iFrame ausgibt"
+
+#: ../profiles/default/types/josefinum.sitecontent.contentmodule.xml
+msgid "A single module addable to content pages"
+msgstr "Ein Modul kann zu Inhaltsseiten hinzugefügt werden"
+
+#: ../contentpage_templates/managemodules.pt:59
+msgid "Add content module"
+msgstr "Modul hinzufügen"
+
+#: ../contentmodule.py:33 ../contentpage.py:43
+msgid "Body Text"
+msgstr "Textblock"
+
+#: ../contentpage_templates/view.pt:38
+msgid "Content Modules"
+msgstr "Inhaltsmodule"
+
+#: ../profiles/default/types/josefinum.sitecontent.contentmodule.xml
+msgid "ContentModule"
+msgstr "Inhaltsmodul"
+
+#: ../profiles/default/types/josefinum.sitecontent.contentpage.xml
+msgid "ContentPage"
+msgstr "Inhaltsseite"
+
+#: ../contentpage_templates/managemodules.pt:84
+msgid "Create module"
+msgstr "Modul erstellen"
+
+#: ../profiles/default/types/josefinum.sitecontent.externalpage.xml
+msgid "ExternalPage"
+msgstr "Externe Seite"
+
+#: ../contentmodule.py:18
+msgid "FK"
+msgstr "FK"
+
+#: ../profiles/default/types/josefinum.sitecontent.contentpage.xml
+msgid "Folderish contentpage containing submodules"
+msgstr "Eine Inhaltsseite kann Inhaltsmodule beinhalten"
+
+#: ../contentpage.py:36
+msgid "Headline"
+msgstr "Überschrift"
+
+#: ../contentmodule.py:29
+msgid "Image"
+msgstr "Bild"
+
+#: ../contentmodule.py:20
+msgid "Josefinum"
+msgstr "Josefinum"
+
+#: ../contentmodule.py:19
+msgid "KJPP"
+msgstr "KJPP"
+
+#: ../contentmodule.py:17
+msgid "KKJ"
+msgstr "KKJ"
+
+#: ../contentpage_templates/view.pt:36
+msgid "Manage"
+msgstr "Verwalten"
+
+#: ../contentpage_templates/managemodules.pt:15
+msgid "Manage modules"
+msgstr "Module verwalten"
+
+#: ../contentmodule.py:37
+msgid "Module CSS Class Selection"
+msgstr "Klinikauswahl"
+
+#: ../contentpage_templates/view.pt:45
+msgid "No content modules asigned."
+msgstr "Es sind keine Inhaltsmodule zugewiesen."
+
+#: ../contentpage.py:37
+msgid ""
+"Override the actual title with a content headline inorder to keep the dublin "
+"core metadata short and precise"
+msgstr "Überschreiben Sie den aktuellen Titel mit einer Überschrift "
+
+#: ../externalpage.py:19
+msgid "Please enter complete URI to external location"
+msgstr "Bitte tragen Sie die komplette URI ein"
+
+#: ../externalpage.py:24
+msgid ""
+"Provide a width for the iframe window. If the external site is larger a "
+"scrollbar will appear"
+msgstr ""
+"Setzen Sie eine Breite für das iFrame Fenster fest. Falls die externe Seite "
+"größer ist, wir ein Scrollbalken erscheinen"
+
+#: ../externalpage.py:18
+msgid "Remote URI"
+msgstr "Remote URI"
+
+#: ../externalpage.py:30
+msgid "Set a height for the iframe window"
+msgstr "Setzen Sie eine Höhe für das iFrame Fenster fest"
+
+#: ../externalpage_templates/view.pt:33
+msgid "The external URI is:"
+msgstr "Die externe URL lautet:"
+
+#: ../contentpage.py:105
+msgid "This field is required"
+msgstr "Dies ist ein Pflichtfeld"
+
+#: ../contentpage_templates/managemodules.pt:69
+msgid "Title"
+msgstr "Titel"
+
+#: ../contentpage_templates/managemodules.pt:38
+msgid "delete"
+msgstr "Löschen"
+
+#: ../contentpage_templates/managemodules.pt:44
+msgid "edit"
+msgstr "Bearbeiten"
+
+#: ../externalpage.py:29
+msgid "iFrame Height"
+msgstr "iFrame Höhe"
+
+#: ../externalpage.py:23
+msgid "iFrame Width"
+msgstr "iFrame Breite"

@@ -1,0 +1,148 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-17 14:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: josefinum.sitecontent\n"
+
+#: ./../profiles/default/types/josefinum.sitecontent.externalpage.xml
+msgid "A page rendering linked content in an iframe"
+msgstr ""
+
+#: ./../profiles/default/types/josefinum.sitecontent.contentmodule.xml
+msgid "A single module addable to content pages"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:59
+msgid "Add content module"
+msgstr ""
+
+#: ./../contentmodule.py:33
+#: ./../contentpage.py:43
+msgid "Body Text"
+msgstr ""
+
+#: ./../contentpage_templates/view.pt:38
+msgid "Content Modules"
+msgstr ""
+
+#: ./../profiles/default/types/josefinum.sitecontent.contentmodule.xml
+msgid "ContentModule"
+msgstr ""
+
+#: ./../profiles/default/types/josefinum.sitecontent.contentpage.xml
+msgid "ContentPage"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:84
+msgid "Create module"
+msgstr ""
+
+#: ./../profiles/default/types/josefinum.sitecontent.externalpage.xml
+msgid "ExternalPage"
+msgstr ""
+
+#: ./../contentmodule.py:18
+msgid "FK"
+msgstr ""
+
+#: ./../profiles/default/types/josefinum.sitecontent.contentpage.xml
+msgid "Folderish contentpage containing submodules"
+msgstr ""
+
+#: ./../contentpage.py:36
+msgid "Headline"
+msgstr ""
+
+#: ./../contentmodule.py:29
+msgid "Image"
+msgstr ""
+
+#: ./../contentmodule.py:20
+msgid "Josefinum"
+msgstr ""
+
+#: ./../contentmodule.py:19
+msgid "KJPP"
+msgstr ""
+
+#: ./../contentmodule.py:17
+msgid "KKJ"
+msgstr ""
+
+#: ./../contentpage_templates/view.pt:36
+msgid "Manage"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:15
+msgid "Manage modules"
+msgstr ""
+
+#: ./../contentmodule.py:37
+msgid "Module CSS Class Selection"
+msgstr ""
+
+#: ./../contentpage_templates/view.pt:45
+msgid "No content modules asigned."
+msgstr ""
+
+#: ./../contentpage.py:37
+msgid "Override the actual title with a content headline inorder to keep the dublin core metadata short and precise"
+msgstr ""
+
+#: ./../externalpage.py:19
+msgid "Please enter complete URI to external location"
+msgstr ""
+
+#: ./../externalpage.py:24
+msgid "Provide a width for the iframe window. If the external site is larger a scrollbar will appear"
+msgstr ""
+
+#: ./../externalpage.py:18
+msgid "Remote URI"
+msgstr ""
+
+#: ./../externalpage.py:30
+msgid "Set a height for the iframe window"
+msgstr ""
+
+#: ./../externalpage_templates/view.pt:33
+msgid "The external URI is:"
+msgstr ""
+
+#: ./../contentpage.py:105
+msgid "This field is required"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:69
+msgid "Title"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:38
+msgid "delete"
+msgstr ""
+
+#: ./../contentpage_templates/managemodules.pt:44
+msgid "edit"
+msgstr ""
+
+#: ./../externalpage.py:29
+msgid "iFrame Height"
+msgstr ""
+
+#: ./../externalpage.py:23
+msgid "iFrame Width"
+msgstr ""
+
