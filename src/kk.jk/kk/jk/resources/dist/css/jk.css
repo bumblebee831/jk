@@ -15727,14 +15727,14 @@ dd.portletItem .navTreeItem a
 }
 .navTreeItem a:hover
 {
-    background: #5cb85c !important;
+    background: #4281b7 !important;
 }
 dl.portlet ul.navTree .navTreeCurrentItem
 {
     margin-right: 0;
     margin-left: 0;
 
-    background: #5cb85c !important;
+    background: #4281b7 !important;
 }
 .navTreeCurrentItem li a
 {
@@ -15909,5 +15909,9 @@ dl.portlet ul.navTree .navTreeCurrentItem
 .app-languagebar ul li a:hover
 {
     background: none;
+}
+.app-sidebar
+{
+    padding-top: 20px;
 }
 /*# sourceMappingURL=jk.css.map */
