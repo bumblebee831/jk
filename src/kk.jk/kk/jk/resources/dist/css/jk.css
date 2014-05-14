@@ -14886,6 +14886,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     overflow: hidden;
 
     width: 100%;
+    margin-top: 20px;
 
     border: 0 solid red;
     background: transparent;
@@ -14895,50 +14896,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     height: 400px;
 
     background-size: cover !important;
-}
-.app-banner .carousel-inner .app-banner-item-01
-{
-    background-image: url(../assets/img/banner01.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-02
-{
-    background-image: url(../assets/img/banner02.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-03
-{
-    background-image: url(../assets/img/banner03.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-04
-{
-    background-image: url(../assets/img/banner04.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-04-en
-{
-    background-image: url(../assets/img/banner04-en.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-05
-{
-    background-image: url(../assets/img/banner05.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-05-en
-{
-    background-image: url(../assets/img/banner05-en.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-06
-{
-    background-image: url(../assets/img/banner06.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-06-en
-{
-    background-image: url(../assets/img/banner06-en.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-07
-{
-    background-image: url(../assets/img/banner07.jpg);
-}
-.app-banner .carousel-inner .app-banner-item-08
-{
-    background-image: url(../assets/img/banner08.jpg);
 }
 .carouselvshadow
 {
@@ -15145,12 +15102,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .carouselText1
 {
-    font-size: 25px;
+    font-size: 14px;
     font-weight: 500;
 
     display: inline-block;
 
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 20px;
     padding: 10px 20px;
 
@@ -15163,7 +15120,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .carouselText2
 {
-    font-size: 19px;
+    font-size: 11.66666667px;
     font-weight: 400;
 
     display: inline-block;
@@ -15514,7 +15471,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .carousel-control.left,
 .carousel-control.right
 {
-    margin-top: 11%;
+    margin-top: 16%;
 }
 #carousel-featuredwork .item
 {

@@ -10,52 +10,10 @@
         width: 100%;
         border: 0px solid red;
         background: transparent;
+        margin-top: @line-height-computed;
         .item {
             height: 400px;
             background-size: cover !important;
-        }
-        .app-banner-item-01 {
-            background-image: url(../assets/img/banner01.jpg);
-        }
-
-        .app-banner-item-02 {
-            background-image: url(../assets/img/banner02.jpg);
-        }
-
-        .app-banner-item-03 {
-            background-image: url(../assets/img/banner03.jpg);
-        }
-
-        .app-banner-item-04 {
-            background-image: url(../assets/img/banner04.jpg);
-        }
-
-        .app-banner-item-04-en {
-            background-image: url(../assets/img/banner04-en.jpg);
-        }
-
-        .app-banner-item-05 {
-            background-image: url(../assets/img/banner05.jpg);
-        }
-
-        .app-banner-item-05-en {
-            background-image: url(../assets/img/banner05-en.jpg);
-        }
-
-        .app-banner-item-06 {
-            background-image: url(../assets/img/banner06.jpg);
-        }
-
-        .app-banner-item-06-en {
-            background-image: url(../assets/img/banner06-en.jpg);
-        }
-
-        .app-banner-item-07 {
-            background-image: url(../assets/img/banner07.jpg);
-        }
-
-        .app-banner-item-08 {
-            background-image: url(../assets/img/banner08.jpg);
         }
     }
 }
@@ -219,10 +177,10 @@
     border-radius: 0;
     color: #FFFFFF;
     display: inline-block;
-    font-size: 25px;
+    font-size: @font-size-base;
     font-weight: 500;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 200px;
     padding: 10px 20px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
@@ -232,7 +190,7 @@
     border-radius: 0;
     color: #FFFFFF;
     display: inline-block;
-    font-size: 19px;
+    font-size: (@font-size-base / 1.2);
     font-weight: 400;
     margin-bottom: 15px;
     padding: 5px 20px;
@@ -477,7 +435,7 @@
     bottom: -5px;
 }
 .carousel-control.left, .carousel-control.right {
-    margin-top: 11%;
+    margin-top: 16%;
 }
 #carousel-featuredwork .item {
     height: 410px;
