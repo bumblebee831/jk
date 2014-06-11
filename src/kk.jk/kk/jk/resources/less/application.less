@@ -2,12 +2,27 @@
 // Application stylesheet
 // -----------------------------------------------
 
+body {
+    background: #e7e6e6;
+}
+
 .app-toolbar + .app-actionbar {
     margin-top: @navbar-height;
 }
 
 .label:empty {
     display: inline;
+}
+
+.app-page {
+    background: white;
+    padding: @line-height-computed (@line-height-computed * 3);
+
+    .app-contentpage-title {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: @font-size-large;
+    }
 }
 
 .app-header {

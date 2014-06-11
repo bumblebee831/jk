@@ -15482,6 +15482,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     margin-left: -31%;
 }
+.app-breadcrumbs
+{
+    font-size: 9.33333333px;
+
+    padding: 20px 60px;
+
+    background: white;
+}
 /* Portlets specific styles */
 .portlet
 {
@@ -15663,7 +15671,7 @@ dd.portletItem .navTreeItem a
     display: block;
 
     margin: 0 0 10px 0;
-    padding: 0 0 0 10px !important;
+    padding: 0 0 0 20px !important;
 
     text-align: left;
     text-decoration: none;
@@ -15678,7 +15686,7 @@ dd.portletItem .navTreeItem a
 }
 .navTreeItem a
 {
-    line-height: 40px;
+    line-height: 30px;
 
     background: transparent;
 }
@@ -15734,11 +15742,19 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     font-size: 11.66666667px;
 
-    padding: 20px;
+    padding: 20px 30px;
 
     text-transform: uppercase;
+}
+.app-footer .app-footer-inner
+{
+    padding: 20px 0;
 
     border-top: 10px solid #4281b7;
+}
+body
+{
+    background: #e7e6e6;
 }
 .app-toolbar + .app-actionbar
 {
@@ -15747,6 +15763,19 @@ dl.portlet ul.navTree .navTreeCurrentItem
 .label:empty
 {
     display: inline;
+}
+.app-page
+{
+    padding: 20px 60px;
+
+    background: white;
+}
+.app-page .app-contentpage-title
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    text-transform: uppercase;
 }
 .app-header
 {

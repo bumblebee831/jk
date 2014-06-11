@@ -3,8 +3,14 @@
 // -----------------------------------
 
 .app-footer {
-    padding: @line-height-computed;
-    border-top: 10px solid @app-danger;
+    padding: @line-height-computed (@line-height-computed * 1.5);
+    
     text-transform: uppercase;
     font-size: (@font-size-base / 1.2);
+    //margin-top: @line-height-computed;
+
+    .app-footer-inner {
+        border-top: 10px solid @app-danger;
+        padding: @line-height-computed 0;
+    }
 }
