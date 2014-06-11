@@ -15486,7 +15486,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     font-size: 9.33333333px;
 
-    padding: 20px 60px;
+    padding: 30px 60px 0 60px;
 
     background: white;
 }
@@ -15682,7 +15682,8 @@ dd.portletItem .navTreeItem a
 }
 .navTreeLevel1 .navTreeItem a
 {
-    background: #ccc !important;
+    color: black !important;
+    background: white !important;
 }
 .navTreeItem a
 {
@@ -15714,7 +15715,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 }
 .navTreeLevel1
 {
-    margin: -10px 0 10px 0 !important;
+    margin: -10px 0 0 0 !important;
 
     text-transform: none;
 }
@@ -15722,7 +15723,7 @@ dl.portlet ul.navTree .navTreeCurrentItem
 {
     font-size: 11.66666667px;
 
-    padding-left: 13.33333333px !important;
+    padding-left: 20px !important;
 
     text-transform: none;
 }
@@ -15776,6 +15777,22 @@ body
     font-weight: bold;
 
     text-transform: uppercase;
+}
+.app-page h1
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+.app-page h2
+{
+    font-size: 13.84615385px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #4281b7;
 }
 .app-header
 {
